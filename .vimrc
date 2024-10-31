@@ -12,8 +12,6 @@ call vundle#begin()
 " add plugins
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-fugitive'
-Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'dense-analysis/ale'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
@@ -30,7 +28,6 @@ Plugin 'girishji/easyjump.vim'
 Plugin 'arzg/vim-colors-xcode'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'takac/vim-hardtime'
 
 call vundle#end()
 
@@ -38,12 +35,12 @@ call vundle#end()
 " Plugin 'prabirshrestha/vim-lsp'
 " Plugin 'mattn/vim-lsp-settings'
 
-let g:hardtime_default_on = 1
 filetype plugin indent on
 
 " Core Parmeters
 syntax on
 set re=0
+set rdt=0
 set number
 set ruler
 set rnu
